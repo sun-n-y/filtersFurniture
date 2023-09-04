@@ -13,8 +13,42 @@ body {
     width: 90vw;
     margin: 4rem auto;
     display: grid;
-    gap: 2rem;
-    max-width: 1140px;
+    gap: 1rem;
+    max-width: 1200px;
+}
+
+.search-input {
+    border: none;
+    background-color: rgb(221, 218, 218);
+    padding: .7rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+}
+
+.companies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.companies-container h2 {
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.company-btn {
+    text-transform: capitalize;
+    border: none;
+    color: rgb(90, 78, 78);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-left: .5rem;
+}
+
+.company-btn:hover {
+    color: black;
 }
 
 .img-container {
@@ -31,6 +65,20 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
+}
+
+.product-title {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(56, 55, 55);
+    font-weight: lighter;
+    margin: .5rem 0;
+    letter-spacing: 2px;
+}
+
+.price {
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 @media screen and (min-width:768px) {
