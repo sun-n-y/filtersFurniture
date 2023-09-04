@@ -59,5 +59,6 @@ companiesContainer.addEventListener('click', (e) => {
       );
       displayProducts();
     }
+    searchInput.value = '';
   }
 });
